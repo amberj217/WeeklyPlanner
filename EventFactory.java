@@ -27,19 +27,18 @@ public class EventFactory {
 				}
 				continue;
 			}
-			// TODO use optional
+
 			if(DayOfWeek.toDayOfWeek(element) != null) {
 				dayOfWeek = DayOfWeek.toDayOfWeek(element);
 				continue;
 			}
-		//	Optional.of(DayOfWeek.toDayOfWeek(element)).ifPresent(value -> {dayOfWeek = value;});
+
 			if (EventType.toEventType(element) != null) {
 				eventType = EventType.toEventType(element);
 				continue;
 			} 
 		}
-//		Optional<Event> event = Optional.ofNullable(createEvent(eventType));
-//		event.ifPresent(eventResult -> eventResult.setData(dayOfWeek, startTime, endTime));
+
 		Event event = createEvent(eventType);
 		if (event != null) {
 			event.setData(dayOfWeek, startTime, endTime);

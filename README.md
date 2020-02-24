@@ -37,7 +37,7 @@ The print feature is far from perfect and relies heavily on tabs alignment which
 has its obvious shortcomings. This is a temporary "proof-of-concept" feature and
 the long term plans have it completely replaced with a web-based interface.
 
-2.Adding a new event must have the following format:
+2. Adding a new event must have the following format:
 <Day of the week> <Type of event> <Start time> <End time>
 eg. Tuesday Appointment 14:00 - 15:00
 --> Currently all days are supported and the user should either type the full name or

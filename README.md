@@ -1,11 +1,11 @@
 # WeeklyPlanner
->>>>>>>>>>>>>>> PURPOSE <<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<< PURPOSE <<<<<<<<<<<<<<<<
 The purpose of this program is to create weekly schedules and keep track of
 different types of appointments. The profile of the user is that of a
 Language Teacher that works for multiple private schools which cater to
 an adult audience.
 
->>>>>>>>>>>>>> ENVIRONMENT <<<<<<<<<<<<<
+<<<<<<<<<<<<<<< ENVIRONMENT <<<<<<<<<<<<<
 This application has been developed and tested with Eclipse for Java on a Ubuntu 18.04 OS.
 It has not been tested in any other environments, therefore if it is not working as described
 here, it is best recommended to attempt to run it again on a Linux platform. Java is lauded
@@ -13,7 +13,7 @@ by its multiplatform orientation, but the usage of hard-coded paths can quickly 
 (especially when going from Windows to Linux), and currently there is such a path in this
 application, as it is not a current priority to make it runnable on Windows.
 
->>>>>>>>>>>>>>> HOW TO USE <<<<<<<<<<<<<
+<<<<<<<<<<<<<< HOW TO USE <<<<<<<<<<<<<
 The application can be open from the command line as a simple java runnable:
 java planner.StartPlanning
 
@@ -68,7 +68,7 @@ a serious inconsistency of the app, which deem this feature unreliable, and will
 
 7. Gracefully exits program with a closing message.
 
->>>>>>>>> NOTES FOR CURRENT STATUS <<<<<<<<
+<<<<<<<<<<<<< NOTES FOR CURRENT STATUS <<<<<<<<
 The application is presented in this format only as a "proof of concept" and it
 is not currently intended to be used as a final product.
 
